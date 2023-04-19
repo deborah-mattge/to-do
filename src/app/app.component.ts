@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'to-do';
+
+    appBotaoClick(): void {
+      console.log("appComponent -> appBotaoClick")
+
+}
 }
